@@ -11,7 +11,6 @@ class Scrapper
 attr_accessor :parse_page, :sitesInformation, :mergeData
 
 	def initialize
-		ap "Starting ... "
 		@sitesInformation = {
 			"opinion" => {
 				"cssSelectors" => {
